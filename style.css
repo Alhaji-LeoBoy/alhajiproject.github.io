@@ -47,13 +47,16 @@
 @media (width < 576px) {
   .rows {
     flex: 25%;
-    max-width: 400px;
+    max-width: 320px;
     background-color: azure;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 2px 3px 4px 5px rgba(180, 180, 180, 0.532);
   }
+  .rows h1 {
+    text-align: center;
+  }
   .chair1 {
-    max-width: 400px;
+    max-width: 320px;
   }
 }
 :root {
@@ -137,14 +140,14 @@ a:hover {
 
 @media (width < 576px) {
   .navbar-container {
-    height: 65px;
+    height: 61px;
     flex-direction: column;
     align-items: flex-start;
     transition: height 0.5s ease;
     position: relative;
   }
   .high {
-    height: 210px;
+    height: 200px;
   }
   .list {
     width: 100%;
@@ -530,15 +533,15 @@ footer p {
     gap: 0.3rem;
   }
   .f1 {
-    width: 98%;
+    width: 94%;
     margin: 0 auto;
   }
   .f1 h3 {
     font-size: 1.5rem;
   }
   .f1 p {
-    padding: 0px;
-    text-align: justify;
+    padding: 10px;
+    text-align: center;
   }
 }
 .booticon {
@@ -603,7 +606,7 @@ footer p {
     text-align: justify;
   }
 }
-input[type=text],
+input[type="text"],
 select {
   width: 100%;
   padding: 12px 20px;
@@ -615,7 +618,7 @@ select {
   font-size: 1rem;
 }
 
-input[type=number] {
+input[type="number"] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -626,7 +629,7 @@ input[type=number] {
   font-size: 1rem;
 }
 
-input[type=date] {
+input[type="date"] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -637,7 +640,7 @@ input[type=date] {
   font-size: 1rem;
 }
 
-input[type=submit] {
+input[type="submit"] {
   width: 50%;
   background-color: #d90429;
   box-shadow: 2px 3px 4px 5px rgba(0, 0, 0, 0.152);
@@ -651,7 +654,7 @@ input[type=submit] {
   margin-top: 20px;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: transparent;
   border: solid white 1px;
 }
@@ -697,4 +700,4 @@ span {
 .hover:hover {
   color: gray;
   transition: all 0.2s;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */

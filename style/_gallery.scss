@@ -1,0 +1,51 @@
+.collection {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.xxlarge {
+  font-size: 7rem;
+  color: green;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: 5px;
+  padding-bottom: 20px;
+}
+.row {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.row ul li {
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+.chair1 {
+  max-width: 350px;
+}
+.rows {
+  flex: 25%;
+  max-width: 350px;
+  background-color: azure;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 2px 3px 4px 5px rgba(180, 180, 180, 0.532);
+}
+
+@media (width < 576px) {
+  .rows {
+    flex: 25%;
+    max-width: 400px;
+    background-color: azure;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 3px 4px 5px rgba(180, 180, 180, 0.532);
+  }
+  .chair1 {
+    max-width: 400px;
+  }
+}

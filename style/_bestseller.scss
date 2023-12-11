@@ -1,0 +1,87 @@
+.bestseller {
+  margin-top: 2rem;
+}
+
+.bestseller h1 {
+  font-size: 3rem;
+  color: #010226;
+}
+.bestcontainer {
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 40px;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+.chair {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.best1 {
+  width: 33.3333333%;
+  background-color: #ffffff;
+  margin-inline: auto;
+  box-shadow: 2px 3px 4px 5px rgba(0, 0, 0, 0.152);
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+.best1 h1 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.best1 ul li {
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+.loicon {
+  color: #010226;
+  padding-right: 10px;
+}
+.price {
+  text-align: center;
+}
+.price p {
+  display: inline-block;
+  float: left;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: red;
+}
+.price button {
+  display: inline-block;
+  float: right;
+  margin-right: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  background: #010226;
+  color: #fff;
+  font-weight: bold;
+}
+
+@media (width < 576px) {
+  .bestcontainer {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+  }
+  .best1 {
+    width: 100%;
+    background-color: #ffffff;
+    margin-inline: auto;
+    box-shadow: 2px 3px 4px 5px rgba(0, 0, 0, 0.152);
+    padding-bottom: 10px;
+  }
+  .best1 h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+}

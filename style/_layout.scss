@@ -1,0 +1,16 @@
+/* This CSS will print because %message-shared is extended. */
+:root {
+  --sm: 576px;
+  --md: 768px;
+  --lg: 992px;
+  --xl: 1200px;
+  --xxl: 1400px;
+}
+
+@mixin flexdirection($--sm: true) {
+  @if $--sm {
+    flex-direction: column;
+  } @else {
+    flex-direction: row;
+  }
+}

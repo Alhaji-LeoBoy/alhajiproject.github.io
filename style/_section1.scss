@@ -1,0 +1,66 @@
+.set1 {
+  margin-top: 3rem;
+}
+.set1 h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  text-transform: uppercase;
+  border-radius: 10px 0;
+  color: #010226;
+}
+.set1container {
+  display: flex;
+  gap: 1rem;
+}
+
+.f1 {
+  width: 33.3333333%;
+  padding: 5px;
+  box-shadow: 2px 3px 4px 5px rgba(0, 0, 0, 0.152);
+  border-radius: 10px 0;
+  background-color: #fefffd;
+}
+.f1 h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.f1 p {
+  padding: 5px;
+  line-height: 2rem;
+  font-size: 1rem;
+}
+@media (width < 576px) {
+  .set1 {
+    margin-top: 1rem;
+  }
+  .set1 h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+  }
+  .set1container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  .f1 {
+    width: 98%;
+    margin: 0 auto;
+  }
+  .f1 h3 {
+    font-size: 1.5rem;
+  }
+  .f1 p {
+    padding: 0px;
+    text-align: justify;
+  }
+}
+
+.booticon {
+  font-size: 4rem;
+  color: #010226;
+}
+.f1 {
+  text-align: center;
+}

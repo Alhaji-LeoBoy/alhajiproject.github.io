@@ -1,0 +1,25 @@
+footer {
+  background-color: #000009;
+  color: white;
+}
+footer p {
+  text-align: center;
+}
+.fcontainer {
+  text-align: center;
+  padding: 20px;
+  height: 200px;
+}
+.foot1 {
+  width: 50%;
+}
+
+@media (width < 576px) {
+  .fcontainer {
+    padding: 20px;
+    height: auto;
+  }
+  footer h1 {
+    font-size: 1.7rem;
+  }
+}
